@@ -21,7 +21,7 @@ const findProduct = (order, allProducts) => {
 
 // Function whose responsibility is to find the employee for an order
 const findEmployee = (order, allEmployees) => {
-    let orderEmployee =""
+    let orderEmployee = null
 
     for (const employee of allEmployees) {
         if (employee.id === order.employeeId) {

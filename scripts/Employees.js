@@ -15,20 +15,21 @@ document.addEventListener(
             for (const employee of employees) {
                 if (employee.id === parseInt(employeeId)) {
 
+
                     for (const order of orders) {
                         if (order.employeeId === employee.id) {
                             count++
-                            
 
-                            
+
+
                         }
-                        //window.alert(`${employee.name} sold ${count}`)
 
-                    }window.alert(`${employee.name} sold ${count}`)
-                }//window.alert(`${employee.name} sold ${count}`)
 
-            }//window.alert(`${employee.name} sold ${count}`)
-           
+                    } window.alert(`${employee.name} sold ${count}`)
+                }
+
+            }
+
         }
     }
 )
